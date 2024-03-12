@@ -13,7 +13,7 @@ let menus = [
 
 const tituloPagina = computed(() => menus[indiceMenuSelecionado.value])
 
-function selecionaMenu (indice) {
+function selecionaMenu(indice) {
   indiceMenuSelecionado.value = indice
 }
 
@@ -24,18 +24,15 @@ fetch('src/meusDados.json')
 </script>
 
 <template>
-  <header>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-    <ul class='nav'>
-      <li class='nav-item' v-for='(menu, indice) in menus'>
-        <a @click='() => selecionaMenu(indice)'> {{ menu }}</a>
-      </li>
-    </ul>
-    </nav>
-  </header>
   <main>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <ul class='nav'>
+        <li class='nav-item' v-for='(menu, indice) in menus'>
+          <a @click='() => selecionaMenu(indice)'> {{ menu }}</a>
+        </li>
+      </ul>
+    </nav>
     <h1>{{ tituloPagina }}</h1>
-    <h2>{{ sobreMim.nome }}</h2>
   </main>
 </template>
 
