@@ -1,20 +1,17 @@
 <script setup>
-import {ref} from 'vue';
+import {ref} from 'vue'
 
-const titulo = ref('Teste rodrigo');
+const sobreMim = ref({})
 
-function alteraTitulo() {
-  titulo.value += 1;
-}
+fetch('src/meusDados.json')
+    .then( res => res.json())
+    .then(data => sobreMim.value = data)
 
 </script>
 
 <template>
   <main>
-    <h2>{{ titulo }}</h2>
-    <button @click='alteraTitulo'>
-      Altera título
-    </button>
+    <h2>{{ sobreMim.nome }}</h2>
   </main>
 </template>
 
