@@ -1,11 +1,11 @@
 {
   "nome": "Rodrigo de Melo Melgaço",
-  "descrição": "Graduado em Ciência da Computação pela Unicamp em 2021. Atualmente trabalha como Auditor Federal de Controle Externo no Tribunal de Contas da União. Experiência em diversos órgãos públicos como servidor na área de TI. Também trabalhei em empresas privadas.",
+  "descricao": "Graduado em Ciência da Computação pela Unicamp em 2021. Atualmente trabalha como Auditor Federal de Controle Externo no Tribunal de Contas da União. Experiência em diversos órgãos públicos como servidor na área de TI. Também trabalhei em empresas privadas.",
   "dadosAcademicos": [
     {
       "instituicao": "Universidade Estadual de Campinas",
       "curso": "Ciência da computação",
-      "anoInício": 1997,
+      "anoInicio": 1997,
       "anoTermino": 2000
     },
     {
@@ -19,19 +19,19 @@
     {
       "empresaOrgao": "Tribunal de Contas da União",
       "cargo": "Auditor Federal de Controle Externo",
-      "período": "2008 - Atual",
+      "periodo": "2008 - Atual",
       "detalhes": "Análise, projeto e desenvolvimento de soluções tecnológicas para o controle externo"
     },
     {
       "empresaOrgao": "Secretaria do Tesouro Nacional",
       "cargo": "Analista de Finanças e Controle",
-      "período": "2007 - 2008",
+      "periodo": "2007 - 2008",
       "detalhes": "Analista de TI, acompanhamento de contratos de desenvolvimento de software"
     },
     {
       "empresaOrgao": "Secretaria de Planejamento e Orçamento",
       "cargo": "Analista de Planejamento e Orçamento",
-      "período": "2006 - 2007",
+      "periodo": "2006 - 2007",
       "detalhes": "Analista de TI, gestão de contratos de software"
     }
   ],

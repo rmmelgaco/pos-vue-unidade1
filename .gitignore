@@ -2,3 +2,7 @@
 /node_modules/.package-lock.json
 /node_modules/
 /package-lock.json
+/.idea/misc.xml
+/.idea/modules.xml
+/pos-vue-unidade1.iml
+/.idea/vcs.xml
