@@ -71,7 +71,19 @@ fetch('src/meusDados.json')
       </div>
     </section>
     <section v-show='indiceMenuSelecionado === 3'>
-
+      <div v-for='(contato, indice) in sobreMim.contatos' :key="`contato${indice}`">
+        <div class="card">
+          <div class="card-body">
+            <h5 class="card-title">{{ contato.texto }}</h5>
+            <p class="card-text">
+              <a target='_blank' v-if="contato.tipo === 'link'" v-bind:href="contato.contato">{{contato.contato}}</a>
+              <a target='_blank' v-else-if="contato.tipo === 'email'" v-bind:href="`mailTo:${contato.contato}`">{{contato.contato}}</a>
+              <span v-else>{{ contato.contato}}</span>
+            </p>
+          </div>
+        </div>
+        <br/>
+      </div>
     </section>
   </main>
 </template>
