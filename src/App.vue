@@ -153,4 +153,16 @@ fetch('src/meusDados.json')
   color: #2c3e50;
   margin-top: 60px;
 }
+.greetings {
+  padding: 20px;
+  font-size: large;
+}
+
+.tituloMensagemChat {
+  text-align: center;
+}
+
+.wrapper {
+  padding: 30px;
+}
 </style>
