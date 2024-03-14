@@ -68,7 +68,7 @@ fetch('src/meusDados.json')
       </nav>
     </div>
   </header>
-  <main id='app' style="width: 1300px">
+  <main id='app' style="width: 1300px" class="container">
     <h1>{{ tituloPagina }}</h1>
     <div v-if='chegouNovaMensagem' class="alert alert-warning" role="alert">
       Chegou uma nova mensagem no chat.
